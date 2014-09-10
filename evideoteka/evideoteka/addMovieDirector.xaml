@@ -1,0 +1,14 @@
+﻿<Window x:Class="evideoteka.addMovieDirector"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="addMovieDirector" Height="300" Width="300">
+    <Grid>
+        <Button x:Name="btnAddMovieDirector" Content="Dodaj" HorizontalAlignment="Left" Margin="96,181,0,0" VerticalAlignment="Top" Width="100" Click="btnAddMovieDirector_Click"/>
+        <ListBox x:Name="listBoxMovie" HorizontalAlignment="Left" Height="55" Margin="96,37,0,0" VerticalAlignment="Top" Width="100"/>
+        <ListBox x:Name="listBoxDirector" HorizontalAlignment="Left" Height="54" Margin="96,97,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.507,1.71"/>
+        <Button x:Name="btnEnd" Content="Kraj" HorizontalAlignment="Left" Margin="96,218,0,0" VerticalAlignment="Top" Width="100" Click="btnEnd_Click"/>
+        <Label Content="Film" HorizontalAlignment="Left" Margin="32,48,0,0" VerticalAlignment="Top"/>
+        <Label Content="Redatelj" HorizontalAlignment="Left" Margin="32,108,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

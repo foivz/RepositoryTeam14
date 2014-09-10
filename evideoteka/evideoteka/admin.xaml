@@ -1,0 +1,31 @@
+﻿<Window x:Class="evideoteka.admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="admin" Height="428.8" Width="436">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="85,23,0,0" TextWrapping="Wrap" Text="Admin" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnAddActor" Content="Dodaj glumca" HorizontalAlignment="Left" Margin="25,82,0,0" VerticalAlignment="Top" Width="90" Click="btnAddActor_Click"/>
+        <Button x:Name="btnChangeActor" Content="Izmjeni podatke" HorizontalAlignment="Left" Margin="25,51,0,0" VerticalAlignment="Top" Width="90" Click="btnChangeActor_Click"/>
+        <Button x:Name="btnChangeAddress" Content="Izmjeni podatke" HorizontalAlignment="Left" Margin="140,51,0,0" VerticalAlignment="Top" Width="105" Click="btnChangeAddress_Click"/>
+        <Button x:Name="btnAddAddress" Content="Dodaj adresu" HorizontalAlignment="Left" Margin="140,82,0,0" VerticalAlignment="Top" Width="105" Click="btnAddAddress_Click"/>
+        <Button x:Name="btnAddUser" Content="Dodaj korisnika" HorizontalAlignment="Left" Margin="25,163,0,0" VerticalAlignment="Top" Width="90" Click="btnAddUser_Click"/>
+        <Button x:Name="btnChangeUser" Content="Izmjeni podatke" HorizontalAlignment="Left" Margin="25,127,0,0" VerticalAlignment="Top" Width="90" Click="btnChangeUser_Click"/>
+        <Button x:Name="btnChangeDistributor" Content="Izdmjeni podatke" HorizontalAlignment="Left" Margin="140,127,0,0" VerticalAlignment="Top" Width="105" Click="btnChangeDistributor_Click"/>
+        <Button x:Name="bntAddDistributor" Content="Dodaj distributera" HorizontalAlignment="Left" Margin="140,163,0,0" VerticalAlignment="Top" Width="105" Click="bntAddDistributor_Click"/>
+        <Button x:Name="btnChangeMovie" Content="Izmjeni podatke" HorizontalAlignment="Left" Margin="279,51,0,0" VerticalAlignment="Top" Width="96" Click="btnChangeMovie_Click"/>
+        <Button x:Name="btnAddMovie" Content="Dodaj film" HorizontalAlignment="Left" Margin="279,82,0,0" VerticalAlignment="Top" Width="96" Click="btnAddMovie_Click"/>
+        <Button x:Name="btnChangeModel" Content="Izmjeni podatke" HorizontalAlignment="Left" Margin="279,127,0,0" VerticalAlignment="Top" Width="96" Click="btnChangeModel_Click"/>
+        <Button x:Name="btnAddModel" Content="Dodaj model" HorizontalAlignment="Left" Margin="279,163,0,0" VerticalAlignment="Top" Width="96" Click="btnAddModel_Click"/>
+        <Button x:Name="btnChangeNational" Content="Izmjeni podatke" HorizontalAlignment="Left" Margin="25,217,0,0" VerticalAlignment="Top" Width="90" Click="btnChangeNational_Click"/>
+        <Button x:Name="btnAddNational" Content="Dodaj nacionalnost" HorizontalAlignment="Left" Margin="25,252,0,0" VerticalAlignment="Top" Width="90" Click="btnAddNational_Click"/>
+        <Button x:Name="bntChangeDirector" Content="Izmjeni podatke" HorizontalAlignment="Left" Margin="140,217,0,0" VerticalAlignment="Top" Width="105" Click="bntChangeDirector_Click"/>
+        <Button x:Name="btnAddDirector" Content="Dodaj redatelja" HorizontalAlignment="Left" Margin="140,252,0,0" VerticalAlignment="Top" Width="105" Click="btnAddDirector_Click"/>
+        <Button x:Name="btnAddGenre" Content="Dodaj žanr" HorizontalAlignment="Left" Margin="279,252,0,0" VerticalAlignment="Top" Width="96" Click="btnAddGenre_Click"/>
+        <Button x:Name="btnAddTitle" Content="Dodaj titl" HorizontalAlignment="Left" Margin="279,217,0,0" VerticalAlignment="Top" Width="96" Click="btnAddTitle_Click"/>
+        <Button x:Name="btnAddMemebership" Content="Dodaj članarinu" HorizontalAlignment="Left" Margin="25,298,0,0" VerticalAlignment="Top" Width="90" Click="btnAddMemebership_Click"/>
+        <Button x:Name="btnAddGenreMovie" Content="Dodaj film/zanr" HorizontalAlignment="Left" Margin="25,337,0,0" VerticalAlignment="Top" Width="90" Click="btnAddGenreMovie_Click"/>
+        <Button x:Name="btnAddMovieActor" Content="Dodaj film/glumac" HorizontalAlignment="Left" Margin="140,298,0,0" VerticalAlignment="Top" Width="105" Click="btnAddMovieActor_Click"/>
+        <Button x:Name="btnAddMovieDirector" Content="Dodaj film/redatelj" HorizontalAlignment="Left" Margin="140,337,0,0" VerticalAlignment="Top" Width="105" Click="btnAddMovieDirector_Click"/>
+
+    </Grid>
+</Window>

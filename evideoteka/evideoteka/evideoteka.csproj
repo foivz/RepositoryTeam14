@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C4A1BDC-7B71-4319-AE8D-B3BB6A12FA90}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>evideoteka</RootNamespace>
+    <AssemblyName>evideoteka</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\ProxyZero\Documents\Visual Studio 2012\Projects\spajanjebaza\spajanjebaza\bin\Debug\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="addMovieDirector.xaml.cs">
+      <DependentUpon>addMovieDirector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewActor.xaml.cs">
+      <DependentUpon>addNewActor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewAddress.xaml.cs">
+      <DependentUpon>addNewAddress.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewDirector.xaml.cs">
+      <DependentUpon>addNewDirector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewDistributor.xaml.cs">
+      <DependentUpon>addNewDistributor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewGenre.xaml.cs">
+      <DependentUpon>addNewGenre.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewGenreMovie.xaml.cs">
+      <DependentUpon>addNewGenreMovie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewMembership.xaml.cs">
+      <DependentUpon>addNewMembership.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewModel.xaml.cs">
+      <DependentUpon>addNewModel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewMovie.xaml.cs">
+      <DependentUpon>addNewMovie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewMovieActor.xaml.cs">
+      <DependentUpon>addNewMovieActor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewNacional.xaml.cs">
+      <DependentUpon>addNewNacional.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewTitle.xaml.cs">
+      <DependentUpon>addNewTitle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addNewUser.xaml.cs">
+      <DependentUpon>addNewUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="admin.xaml.cs">
+      <DependentUpon>admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="dataToSend.cs" />
+    <Compile Include="editAll.xaml.cs">
+      <DependentUpon>editAll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="redatelj.cs" />
+    <Compile Include="titl.cs" />
+    <Compile Include="user.xaml.cs">
+      <DependentUpon>user.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="userControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userControl1.Designer.cs">
+      <DependentUpon>userControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userMainPanel.xaml.cs">
+      <DependentUpon>userMainPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="userMovieGenre.xaml.cs">
+      <DependentUpon>userMovieGenre.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="userMovieList.xaml.cs">
+      <DependentUpon>userMovieList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="userMovieSearch.xaml.cs">
+      <DependentUpon>userMovieSearch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="zanr.cs" />
+    <Page Include="addMovieDirector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewActor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewAddress.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewDirector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewDistributor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewGenre.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewGenreMovie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewMembership.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewModel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewMovie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewMovieActor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewNacional.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewTitle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addNewUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="editAll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="adresa.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baza.cs" />
+    <Compile Include="clanarina.cs" />
+    <Compile Include="distributer.cs" />
+    <Compile Include="film.cs" />
+    <Compile Include="filmglumac.cs" />
+    <Compile Include="filmredatelj.cs" />
+    <Compile Include="filmtitl.cs" />
+    <Compile Include="filmzanr.cs" />
+    <Compile Include="glumac.cs" />
+    <Compile Include="glumacnacionalnost.cs" />
+    <Compile Include="korisnik.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="user.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="userMainPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="userMovieGenre.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="userMovieList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="userMovieSearch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="model.cs" />
+    <Compile Include="nacionalnost.cs" />
+    <Compile Include="posudba.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userControl1.resx">
+      <DependentUpon>userControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxAXVLC">
+      <Guid>{DF2BBE39-40A8-433B-A279-073F48DA94B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AXVLC">
+      <Guid>{DF2BBE39-40A8-433B-A279-073F48DA94B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

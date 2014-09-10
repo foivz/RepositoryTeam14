@@ -1,0 +1,16 @@
+﻿<Window x:Class="evideoteka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txtBoxUserName" HorizontalAlignment="Left" Height="23" Margin="200,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtBoxUserName_TextChanged"/>
+        <Button x:Name="btnLogin" Content="Button" HorizontalAlignment="Left" Margin="221,232,0,0" VerticalAlignment="Top" Width="75" Click="btnLogin_Click"/>
+        <Label Content="Korisničko ime" HorizontalAlignment="Left" Margin="106,136,0,0" VerticalAlignment="Top"/>
+        <Label Content="Lozinka" HorizontalAlignment="Left" Margin="106,181,0,0" VerticalAlignment="Top"/>
+        <PasswordBox Height="21"  Margin="200,186,183,0" 
+         x:Name="passBox" VerticalAlignment="Top" 
+         Background="#FFF8FCFD" Foreground="DarkBlue" 
+         MaxLength="25" PasswordChar="*" 
+         />
+    </Grid>
+</Window>
