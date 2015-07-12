@@ -1,14 +1,17 @@
-﻿<Window x:Class="evideoteka.addNewMembership"
+﻿<Controls:MetroWindow x:Class="evideoteka.addNewMembership"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="addNewMembership" Height="300" Width="300">
+        Title="Dodaj članstvo" Height="300" Width="300"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        GlowBrush="{DynamicResource AccentColorBrush}"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-        <ListBox x:Name="listBoxModel" HorizontalAlignment="Left" Height="25" Margin="101,27,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="listBoxModel_SelectionChanged"/>
-        <ListBox x:Name="listBoxUser" HorizontalAlignment="Left" Height="24" Margin="101,76,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="btnAddMembership" Content="Dodaj" HorizontalAlignment="Left" Margin="114,175,0,0" VerticalAlignment="Top" Width="75" Click="btnAddMembership_Click"/>
-        <Button x:Name="btnClose" Content="Kraj" HorizontalAlignment="Left" Margin="114,223,0,0" VerticalAlignment="Top" Width="75" Click="btnClose_Click"/>
-        <Label Content="Model" HorizontalAlignment="Left" Margin="14,34,0,0" VerticalAlignment="Top"/>
-        <Label Content="Korisnik" HorizontalAlignment="Left" Margin="14,82,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listBoxModel" HorizontalAlignment="Left" Height="25" Margin="101,34,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="listBoxModel_SelectionChanged"/>
+        <ListBox x:Name="listBoxUser" HorizontalAlignment="Left" Height="24" Margin="101,92,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="btnAddMembership" Content="Dodaj" HorizontalAlignment="Left" Margin="114,159,0,0" VerticalAlignment="Top" Width="75" Click="btnAddMembership_Click"/>
+        <Button x:Name="btnClose" Content="Natrag" HorizontalAlignment="Left" Margin="114,212,0,0" VerticalAlignment="Top" Width="75" Click="btnClose_Click"/>
+        <Label Content="Model" HorizontalAlignment="Left" Margin="14,34,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.507,-0.05"/>
+        <Label Content="Korisnik" HorizontalAlignment="Left" Margin="14,90,0,0" VerticalAlignment="Top"/>
 
     </Grid>
-</Window>
+</Controls:MetroWindow>

@@ -1,12 +1,15 @@
-﻿<Window x:Class="evideoteka.addNewNacional"
+﻿<Controls:MetroWindow x:Class="evideoteka.addNewNacional"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="addNewNacional" Height="300" Width="300">
-    <Grid>
-        <TextBox x:Name="txtBoxNacionalnost" HorizontalAlignment="Left" Height="23" Margin="92,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Naziv" HorizontalAlignment="Left" Margin="28,89,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnAddNacionalnost" Content="Dodaj" HorizontalAlignment="Left" Margin="114,135,0,0" VerticalAlignment="Top" Width="75" Click="btnAddNacionalnost_Click"/>
-        <Button x:Name="btnClose" Content="Kraj" HorizontalAlignment="Left" Margin="114,181,0,0" VerticalAlignment="Top" Width="75" Click="btnClose_Click"/>
+        Title="Dodaj državljanstvo" Height="268.657" Width="300"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        GlowBrush="{DynamicResource AccentColorBrush}"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,-5">
+        <TextBox x:Name="txtBoxNacionalnost" HorizontalAlignment="Left" Height="23" Margin="114,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Državljanstvo" HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.725,0.369"/>
+        <Button x:Name="btnAddNacionalnost" Content="Dodaj" HorizontalAlignment="Left" Margin="114,101,0,0" VerticalAlignment="Top" Width="75" Click="btnAddNacionalnost_Click"/>
+        <Button x:Name="btnClose" Content="Natrag" HorizontalAlignment="Left" Margin="114,153,0,0" VerticalAlignment="Top" Width="75" Click="btnClose_Click"/>
 
     </Grid>
-</Window>
+</Controls:MetroWindow>

@@ -102,3 +102,139 @@ E:\Projekti\evideoteka\evideoteka\obj\Debug\addNewGenreMovie.g.cs
 E:\Projekti\evideoteka\evideoteka\obj\Debug\addNewMovieActor.g.cs
 E:\Projekti\evideoteka\evideoteka\obj\Debug\userMovieSearch.baml
 E:\Projekti\evideoteka\evideoteka\obj\Debug\userMovieSearch.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\evideoteka.exe.config
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\Interop.AXVLC.dll
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\AxInterop.AXVLC.dll
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.csproj.ResolveComReference.cache
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.exe
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.pdb
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\evideoteka.exe
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\evideoteka.pdb
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\Interop.AXVLC.dll
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\AxInterop.AXVLC.dll
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addMovieDirector.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewActor.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewAddress.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewDirector.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewDistributor.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewGenre.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewGenreMovie.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMembership.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewModel.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMovie.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMovieActor.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewNacional.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewTitle.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewUser.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\admin.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\editAll.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\MainWindow.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\user.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMainPanel.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieGenre.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieList.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieSearch.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addMovieDirector.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewActor.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewAddress.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewDirector.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewDistributor.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewGenre.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewGenreMovie.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMembership.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewModel.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMovie.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMovieActor.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewNacional.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewTitle.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewUser.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\admin.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\editAll.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\MainWindow.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\user.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMainPanel.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieGenre.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieList.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieSearch.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\App.g.cs
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka_MarkupCompile.cache
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.g.resources
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.Properties.Resources.resources
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.userControl1.resources
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.csproj.GenerateResource.Cache
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\MySql.Data.dll
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\evideoteka.exe.config
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\Interop.AXVLC.dll
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\AxInterop.AXVLC.dll
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.csproj.ResolveComReference.cache
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.exe
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.pdb
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\evideoteka.exe
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\evideoteka.pdb
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\MySql.Data.dll
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\Interop.AXVLC.dll
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\AxInterop.AXVLC.dll
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addMovieDirector.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewActor.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewAddress.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewDirector.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewDistributor.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewGenre.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewGenreMovie.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMembership.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewModel.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMovie.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMovieActor.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewNacional.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewTitle.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewUser.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\admin.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\editAll.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\MainWindow.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\user.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMainPanel.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieGenre.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieList.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieSearch.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addMovieDirector.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewActor.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewAddress.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewDirector.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewDistributor.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewGenre.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewGenreMovie.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMembership.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewModel.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMovie.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewMovieActor.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewNacional.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewTitle.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\addNewUser.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\admin.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\editAll.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\MainWindow.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\user.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMainPanel.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieGenre.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieList.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\userMovieSearch.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\App.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka_MarkupCompile.cache
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.g.resources
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.Properties.Resources.resources
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.userControl1.resources
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\evideoteka.csproj.GenerateResource.Cache
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\Resources\Icons.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\Resources\Icons.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\MahApps.Metro.dll
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\MahApps.Metro.xml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\App.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\MahApps.Metro.dll
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\MahApps.Metro.xml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\Resources\Icons.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\App.baml
+C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\Resources\Icons.g.cs

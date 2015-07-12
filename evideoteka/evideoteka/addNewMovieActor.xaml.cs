@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewMovieActor.xaml
     /// </summary>
-    public partial class addNewMovieActor : Window
+    public partial class addNewMovieActor
     {
         baza db;
         List<film> choseMovie;
@@ -44,7 +44,7 @@ namespace evideoteka
         {
             film selectedMovie = (film)listBoxMovie.SelectedItem;
             glumac selectedGenre = (glumac)listBoxActor.SelectedItem;
-            string query = "insert into filmzanr  values (" + "'" + selectedMovie.idFilm + "'" + "," + "'" + selectedGenre.idGlumac + "'" + ")";
+            string query = "insert into filmglumac  values (" + "'" + selectedMovie.idFilm + "'" + "," + "'" + selectedGenre.idGlumac + "'" + ")";
             db.insert(query);
         }
 

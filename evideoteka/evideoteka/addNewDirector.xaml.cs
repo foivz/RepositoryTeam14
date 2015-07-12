@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewDirector.xaml
     /// </summary>
-    public partial class addNewDirector : Window
+    public partial class addNewDirector
     {
         baza db;
         String name, surname, year;
@@ -37,7 +37,7 @@ namespace evideoteka
             name = txtBoxName.Text;
             surname = txtBoxSurname.Text;
             year = txtBoxYear.Text;
-            string query = "insert into redatelj(ime, prezime, datumRodenja) values ( " + "'" + name + "'" + "," + "'" + surname + "'" + "," + "'" + year + "'" + ")";
+            string query = "insert into redatelj(ime, prezime, datumRodjenja) values ( " + "'" + name + "'" + "," + "'" + surname + "'" + "," + "'" + year + "'" + ")";
             db.insert(query);
         }
     }

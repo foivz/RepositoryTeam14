@@ -9,10 +9,10 @@ namespace evideoteka
     class nacionalnost
     {
         public int idNacionalnost { get; set; }
-        public string naziv { get; set; }
+        public string drzavljanstvo { get; set; }
         public override string ToString()
         {
-            return naziv;
+            return drzavljanstvo;
         }
 
     }

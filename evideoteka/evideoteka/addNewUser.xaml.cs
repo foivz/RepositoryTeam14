@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewUser.xaml
     /// </summary>
-    public partial class addNewUser : Window
+    public partial class addNewUser 
     {
         baza db;
         String name, surname, phone, email, status, type, userName, password, address;
@@ -42,6 +42,11 @@ namespace evideoteka
             db.insert(query);
             
 
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

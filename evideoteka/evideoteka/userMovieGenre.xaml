@@ -1,11 +1,14 @@
-﻿<Window x:Class="evideoteka.userMovieGenre"
+﻿<Controls:MetroWindow x:Class="evideoteka.userMovieGenre"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="userMovieGenre" Height="326.866" Width="371.642">
+        Title="Filmovi po žanru" Height="326.866" Width="371.642"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        GlowBrush="{DynamicResource AccentColorBrush}"
+        WindowStartupLocation="CenterScreen">              
     <Grid>
         <ListBox x:Name="listBoxGenre" HorizontalAlignment="Left" Height="196" Margin="10,35,0,0" VerticalAlignment="Top" Width="149" SelectionChanged="listBoxGenre_SelectionChanged"/>
         <ListBox HorizontalAlignment="Left" Height="100" Margin="545,72,-281,0" VerticalAlignment="Top" Width="100"/>
         <ListBox x:Name="listBoxMovie" HorizontalAlignment="Left" Height="196" Margin="206,35,0,0" VerticalAlignment="Top" Width="148" SelectionChanged="listBoxMovie_SelectionChanged" MouseDoubleClick="listBoxMovie_MouseDoubleClick"/>
 
     </Grid>
-</Window>
+</Controls:MetroWindow>

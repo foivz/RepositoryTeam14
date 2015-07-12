@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewNacional.xaml
     /// </summary>
-    public partial class addNewNacional : Window
+    public partial class addNewNacional
     {
         baza db;
         String name;
@@ -34,8 +34,9 @@ namespace evideoteka
 
         private void btnAddNacionalnost_Click(object sender, RoutedEventArgs e)
         {
+            
             name = txtBoxNacionalnost.Text;
-            string query = "insert into nacionalnost(naziv) values ( " + "'" + name + "'" +")";
+            string query = "insert into nacionalnost(drzavljanstvo) values ( " + "'" + name + "'" + ")";
             db.insert(query);
         }
     }

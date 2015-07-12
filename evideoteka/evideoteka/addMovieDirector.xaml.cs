@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addMovieDirector.xaml
     /// </summary>
-    public partial class addMovieDirector : Window
+    public partial class addMovieDirector
     {
         baza db;
         List<film> choseMovie;
@@ -44,7 +44,7 @@ namespace evideoteka
         {
             film selectedMovie = (film)listBoxMovie.SelectedItem;
             redatelj selectedGenre = (redatelj)listBoxDirector.SelectedItem;
-            string query = "insert into filmzanr  values (" + "'" + selectedMovie.idFilm + "'" + "," + "'" + selectedGenre.idRedatelj + "'" + ")";
+            string query = "insert into filmredatelj  values (" + "'" + selectedMovie.idFilm + "'" + "," + "'" + selectedGenre.idRedatelj + "'" + ")";
             db.insert(query);
         }
 

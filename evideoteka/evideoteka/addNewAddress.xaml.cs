@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewAddress.xaml
     /// </summary>
-    public partial class addNewAddress : Window
+    public partial class addNewAddress
     {
         string postNumber, place, street;
         baza db;

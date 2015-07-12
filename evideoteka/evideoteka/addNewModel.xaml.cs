@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewModel.xaml
     /// </summary>
-    public partial class addNewModel : Window
+    public partial class addNewModel
     {
         baza db;
         String name, description, price, length;

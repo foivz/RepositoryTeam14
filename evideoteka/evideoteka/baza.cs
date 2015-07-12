@@ -26,9 +26,9 @@ namespace evideoteka
     private void Initialize()
     {
         server = "localhost";
-        database = "evideoteka";
+        database = "mydb";
         uid = "root";
-        password = "";
+        password = "rootsifra";
         string connectionString;
         connectionString = "SERVER=" + server + ";" + "DATABASE=" + 
 		database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
@@ -261,6 +261,7 @@ namespace evideoteka
                 model1.idGlumac = Int32.Parse(bModelId);
                 model1.ime = dataReader[1] + "";
                 model1.prezime = dataReader[2] + "";
+                model1.datumRodenja = dataReader[3] + "";
                 list.Add(model1);
             }
 
@@ -406,7 +407,7 @@ namespace evideoteka
                 var distributer1 = new nacionalnost();
                 string pret = dataReader[0] + "";
                 distributer1.idNacionalnost = Int32.Parse(pret);
-                distributer1.naziv = dataReader[1] + "";
+                distributer1.drzavljanstvo = dataReader[1] + "";
                 list.Add(distributer1);
 
             }
@@ -439,9 +440,8 @@ namespace evideoteka
                 string pret = dataReader[0] + "";
                 distributer1.idRedatelj = Int32.Parse(pret);
                 distributer1.ime = dataReader[1] + "";
-                distributer1.prezime = dataReader[2] + "";
-                string pret1 = dataReader[3] + "";
-                distributer1.datumRodenja = DateTime.Parse(pret1);
+                distributer1.prezime = dataReader[2] + "";                
+                distributer1.datumRodenja = dataReader[3] + "";
                 list.Add(distributer1);
 
             }

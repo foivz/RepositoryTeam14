@@ -13,5 +13,6 @@ namespace evideoteka
     /// </summary>
     public partial class App : Application
     {
+        
     }
 }

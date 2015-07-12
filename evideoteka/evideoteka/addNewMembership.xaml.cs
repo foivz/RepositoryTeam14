@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewMembership.xaml
     /// </summary>
-    public partial class addNewMembership : Window
+    public partial class addNewMembership
     {
         baza db;
         DateTime dt, dtUntil;

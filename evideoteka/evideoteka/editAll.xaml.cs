@@ -18,7 +18,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for editAll.xaml
     /// </summary>
-    public partial class editAll : Window
+    public partial class editAll
     {
         string tableName;
         List<string> tableFieldNames, tableFieldValues;
@@ -26,6 +26,7 @@ namespace evideoteka
         List<korisnik> user;
         List<adresa> address;
         List<model> model;
+        List<zanr> genre;
         List<TextBox> listTextBox;
         List<Label> listLabel;
         List<film> movie;
@@ -97,6 +98,12 @@ namespace evideoteka
                 director = db.SelectDirector();
                 createInterface(director);
             }
+            else if (dts.getNumber == "9")
+            {
+                genre = new List<zanr>();
+                genre = db.SelectGenre();
+                createInterface(genre);
+            }
           
         }
 
@@ -131,7 +138,7 @@ namespace evideoteka
             var testMe = obj[0].GetType().GetFields(
                             BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
             string[] names = Array.ConvertAll(testMe, field => field.Name);
-            int i = 0;
+            
             foreach (string a in names)
             {
                 Label lbColumnName = new Label();
@@ -169,7 +176,7 @@ namespace evideoteka
             var testMe = objecto.GetType().GetFields(
                             BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
             string[] names = Array.ConvertAll(testMe, field => field.Name);
-            int i = 0;
+            
             foreach (string a in names)
             {
                 Label lbColumnName = new Label();

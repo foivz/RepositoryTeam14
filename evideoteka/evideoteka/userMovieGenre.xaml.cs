@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for userMovieGenre.xaml
     /// </summary>
-    public partial class userMovieGenre : Window
+    public partial class userMovieGenre
     {
         List<film> selectMovie;
         List<zanr> selectGenre;

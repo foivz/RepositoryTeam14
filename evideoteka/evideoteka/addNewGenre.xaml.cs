@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewGenre.xaml
     /// </summary>
-    public partial class addNewGenre : Window
+    public partial class addNewGenre
     {
         string name, description;
         baza db;

@@ -17,9 +17,10 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewMovie.xaml
     /// </summary>
-    public partial class addNewMovie : Window
+    public partial class addNewMovie
     {
         baza db;
+        
         List<distributer> distributor;
         String name, year, duration, language, country, address, path;
         public addNewMovie()
@@ -60,6 +61,11 @@ namespace evideoteka
                 path = fd.FileName;
                 MessageBox.Show(path);
             }
+        }
+
+        private void btnEnd_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for userMainPanel.xaml
     /// </summary>
-    public partial class userMainPanel : Window
+    public partial class userMainPanel
     {
         public userMainPanel()
         {
@@ -27,20 +27,25 @@ namespace evideoteka
         private void btnMovieList_Click(object sender, RoutedEventArgs e)
         {
             var moviePanel = new userMovieList();
-            moviePanel.Show();
+            moviePanel.ShowDialog();
 
         }
 
         private void btnMoviByGenre_Click(object sender, RoutedEventArgs e)
         {
             var moviePanelGenre = new userMovieGenre();
-            moviePanelGenre.Show();
+            moviePanelGenre.ShowDialog();
         }
 
         private void btnMovieSearch_Click(object sender, RoutedEventArgs e)
         {
             var moviPanelSearch = new userMovieSearch();
-            moviPanelSearch.Show();
+            moviPanelSearch.ShowDialog();
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

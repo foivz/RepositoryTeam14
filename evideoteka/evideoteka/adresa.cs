@@ -13,5 +13,9 @@ namespace evideoteka
         public string mjesto { get; set; }
         public string ulica { get; set; }
 
+        public override string ToString()
+        {
+            return mjesto;
+        }
     }
 }

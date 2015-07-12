@@ -19,165 +19,179 @@ namespace evideoteka
     /// </summary>
 
    
-    public partial class admin : Window
+    public partial class admin
     {
-        string numberOfClickedButton;
+        string numberOfSelectedItem;
          dataToSend dts;
-        //public delegate void sendTableData(object sender, dataToSend e);
-        //public event sendTableData selectInfo;
         public admin()
         {
             InitializeComponent();
             
         }
 
-        private void btnAddActor_Click(object sender, RoutedEventArgs e)
+        private void mnuItemExit_Click(object sender, RoutedEventArgs e)
         {
-            var addActorPanel = new addNewActor();
-            addActorPanel.Show();
+            this.Close();
         }
 
-        private void btnAddAddress_Click(object sender, RoutedEventArgs e)
-        {
-            var addAddressPanel = new addNewAddress();
-            addAddressPanel.Show();
-        }
-
-        private void btnAddUser_Click(object sender, RoutedEventArgs e)
-        {
-            var addUserPanel = new addNewUser();
-            addUserPanel.Show();
-        }
-
-        private void bntAddDistributor_Click(object sender, RoutedEventArgs e)
+        private void mnuItemAddDistributor_Click(object sender, RoutedEventArgs e)
         {
             var addDistributorPanel = new addNewDistributor();
-            addDistributorPanel.Show();
+            addDistributorPanel.ShowDialog();
         }
 
-        private void btnAddMovie_Click(object sender, RoutedEventArgs e)
+        private void mnuItemChangeDistributor_Click(object sender, RoutedEventArgs e)
         {
-            var addMoviePanel = new addNewMovie();
-            addMoviePanel.Show();
+            numberOfSelectedItem = "6";
+            dts = new dataToSend(numberOfSelectedItem, "distributer");
+            var aW = new editAll(dts);
+            aW.ShowDialog();
         }
 
-        private void btnAddModel_Click(object sender, RoutedEventArgs e)
+        private void mnuItemAddAdress_Click(object sender, RoutedEventArgs e)
+        {
+            var addAddressPanel = new addNewAddress();
+            addAddressPanel.ShowDialog();
+        }
+
+        private void mnuItemChangeAdress_Click(object sender, RoutedEventArgs e)
+        {
+            numberOfSelectedItem = "4";
+            dts = new dataToSend(numberOfSelectedItem, "adresa");
+            var aW = new editAll(dts);
+            aW.ShowDialog();
+
+        }
+
+        private void mnuItemAddUser_Click(object sender, RoutedEventArgs e)
+        {
+            var addUserPanel = new addNewUser();
+            addUserPanel.ShowDialog();
+        }
+
+        private void mnuItemChangeUser_Click(object sender, RoutedEventArgs e)
+        {
+            numberOfSelectedItem = "3";
+            dts = new dataToSend(numberOfSelectedItem, "korisnik");
+            var aW = new editAll(dts);
+            aW.ShowDialog();
+
+        }
+
+        private void mnuItemAddModel_Click(object sender, RoutedEventArgs e)
         {
             var addModelPanel = new addNewModel();
-            addModelPanel.Show();
+            addModelPanel.ShowDialog();
         }
 
-        private void btnAddNational_Click(object sender, RoutedEventArgs e)
+        private void mnuItemChangeModel_Click(object sender, RoutedEventArgs e)
         {
-            var addNacionalPanel = new addNewNacional();
-            addNacionalPanel.Show();
+            numberOfSelectedItem = "2";
+            dts = new dataToSend(numberOfSelectedItem, "model");
+            var aW = new editAll(dts);
+            aW.ShowDialog();
         }
 
-        private void btnAddDirector_Click(object sender, RoutedEventArgs e)
+        private void mnuItemAddMovie_Click(object sender, RoutedEventArgs e)
         {
-            var addDirectorPanel = new addNewDirector();
-            addDirectorPanel.Show();
+            var addMoviePanel = new addNewMovie();
+            addMoviePanel.ShowDialog();
         }
 
-        private void btnAddGenre_Click(object sender, RoutedEventArgs e)
+        private void mnuItemChangeMovie_Click(object sender, RoutedEventArgs e)
         {
-            var addGenrePanel = new addNewGenre();
-            addGenrePanel.Show();
+            numberOfSelectedItem = "5";
+            dts = new dataToSend(numberOfSelectedItem, "film");
+            var aW = new editAll(dts);
+            aW.ShowDialog();
         }
 
-        private void btnAddTitle_Click(object sender, RoutedEventArgs e)
+        private void mnuItemAddTitle_Click(object sender, RoutedEventArgs e)
         {
             var addTitlePanel = new addNewTitle();
-            addTitlePanel.Show();
+            addTitlePanel.ShowDialog();
+
         }
 
-        private void btnAddMemebership_Click(object sender, RoutedEventArgs e)
+        private void mnuItemAddActor_Click(object sender, RoutedEventArgs e)
         {
-            var addMembershipPanel = new addNewMembership();
-            addMembershipPanel.Show();
+            var addActorPanel = new addNewActor();
+            addActorPanel.ShowDialog();
         }
 
-        private void btnChangeActor_Click(object sender, RoutedEventArgs e)
+        private void mnuItemChangeActor_Click(object sender, RoutedEventArgs e)
         {
-            numberOfClickedButton = "1";
-            dts = new dataToSend(numberOfClickedButton, "glumac");
+            numberOfSelectedItem = "1";
+            dts = new dataToSend(numberOfSelectedItem, "glumac");
             var aW = new editAll(dts);
-            aW.Show();
+            aW.ShowDialog();
             //this.Dispose();
         }
 
-        private void btnChangeModel_Click(object sender, RoutedEventArgs e)
+        private void mnuItemAddDirector_Click(object sender, RoutedEventArgs e)
         {
-            numberOfClickedButton = "2";
-            dts = new dataToSend(numberOfClickedButton, "model");
+            var addDirectorPanel = new addNewDirector();
+            addDirectorPanel.ShowDialog();
+        }
+
+        private void mnuItemChangeDirector_Click(object sender, RoutedEventArgs e)
+        {
+            numberOfSelectedItem = "8";
+            dts = new dataToSend(numberOfSelectedItem, "redatelj");
             var aW = new editAll(dts);
-            aW.Show();
+            aW.ShowDialog();
         }
 
-        private void btnChangeUser_Click(object sender, RoutedEventArgs e)
+        private void mnuItemAddGenre_Click(object sender, RoutedEventArgs e)
         {
-            numberOfClickedButton = "3";
-            dts = new dataToSend(numberOfClickedButton, "korisnik");
+            var addGenrePanel = new addNewGenre();
+            addGenrePanel.ShowDialog();
+
+        }
+
+        private void mnuItemAddNational_Click(object sender, RoutedEventArgs e)
+        {
+            var addNacionalPanel = new addNewNacional();
+            addNacionalPanel.ShowDialog();
+
+        }
+
+        private void mnuItemChangeNational_Click(object sender, RoutedEventArgs e)
+        {
+            numberOfSelectedItem = "7";
+            dts = new dataToSend(numberOfSelectedItem, "nacionalnost");
             var aW = new editAll(dts);
-            aW.Show();
+            aW.ShowDialog();
+ 
         }
 
-        private void btnChangeAddress_Click(object sender, RoutedEventArgs e)
+        private void mnuItemChangeGenre_Click(object sender, RoutedEventArgs e)
         {
-            numberOfClickedButton = "4";
-            dts = new dataToSend(numberOfClickedButton, "adresa");
+            numberOfSelectedItem = "9";
+            dts = new dataToSend(numberOfSelectedItem, "zanr");
             var aW = new editAll(dts);
-            aW.Show();
+            aW.ShowDialog();
+
         }
 
-        private void btnChangeMovie_Click(object sender, RoutedEventArgs e)
+        private void mnuItemAddMovieActor_Click(object sender, RoutedEventArgs e)
         {
-            numberOfClickedButton = "5";
-            dts = new dataToSend(numberOfClickedButton, "film");
-            var aW = new editAll(dts);
-            aW.Show();
+            var addMovieActorPanel = new addNewMovieActor();
+            addMovieActorPanel.ShowDialog();
         }
 
-        private void btnChangeDistributor_Click(object sender, RoutedEventArgs e)
+        private void mnuItemAddMovieDirector_Click(object sender, RoutedEventArgs e)
         {
-            numberOfClickedButton = "6";
-            dts = new dataToSend(numberOfClickedButton, "distributer");
-            var aW = new editAll(dts);
-            aW.Show();
+            var addMovieDirectorPanel = new addMovieDirector();
+            addMovieDirectorPanel.ShowDialog();
         }
 
-        private void btnChangeNational_Click(object sender, RoutedEventArgs e)
+        private void mnuItemAddMovieGenre_Click(object sender, RoutedEventArgs e)
         {
-            numberOfClickedButton = "7";
-            dts = new dataToSend(numberOfClickedButton, "nacionalnost");
-            var aW = new editAll(dts);
-            aW.Show();
+            var addMovieGenrePanel = new addNewGenreMovie();
+            addMovieGenrePanel.ShowDialog();
         }
 
-        private void bntChangeDirector_Click(object sender, RoutedEventArgs e)
-        {
-            numberOfClickedButton = "8";
-            dts = new dataToSend(numberOfClickedButton, "redatelj");
-            var aW = new editAll(dts);
-            aW.Show();
-        }
-
-        private void btnAddGenreMovie_Click(object sender, RoutedEventArgs e)
-        {
-            var ae = new addNewGenreMovie();
-            ae.Show();
-        }
-
-        private void btnAddMovieActor_Click(object sender, RoutedEventArgs e)
-        {
-            var ae = new addNewMovieActor();
-            ae.Show();
-        }
-
-        private void btnAddMovieDirector_Click(object sender, RoutedEventArgs e)
-        {
-            var ae = new addMovieDirector();
-            ae.Show();
-        }
+               
     }
 }

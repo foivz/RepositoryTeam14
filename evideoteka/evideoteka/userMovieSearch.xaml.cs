@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for userMovieSearch.xaml
     /// </summary>
-    public partial class userMovieSearch : Window
+    public partial class userMovieSearch
     {
         baza db;
         List<film> searchByName;

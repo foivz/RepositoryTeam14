@@ -18,7 +18,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewTitle.xaml
     /// </summary>
-    public partial class addNewTitle : Window
+    public partial class addNewTitle
     {
         baza db;
         String name, path;

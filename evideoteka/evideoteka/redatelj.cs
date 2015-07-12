@@ -11,7 +11,7 @@ namespace evideoteka
         public int idRedatelj { get; set; }
         public string ime { get; set; }
         public string prezime { get; set; }
-        public DateTime datumRodenja { get; set; }
+        public string datumRodenja { get; set; }
 
         public override string ToString()
         {

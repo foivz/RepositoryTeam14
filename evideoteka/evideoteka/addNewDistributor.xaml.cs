@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewDistributor.xaml
     /// </summary>
-    public partial class addNewDistributor : Window
+    public partial class addNewDistributor
     {
         baza db;
         string name, address, phone, faks, email, oib;
@@ -37,6 +37,11 @@ namespace evideoteka
             oib = txtBoxOib.Text;
             string query = "insert into distributer(naziv, adresa, telefon, faks, email, oib) values ( " + "'" + name + "'" + "," + "'" + address + "'" + "," + "'" + phone + "'" + "," + "'" + faks + "'" + "," + "'" + email + "'" + "," + "'" + oib + "'" + ")";
             db.insert(query);
+        }
+
+        private void btnCloseDistributor_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

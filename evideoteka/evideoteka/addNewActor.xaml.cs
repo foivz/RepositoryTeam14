@@ -17,15 +17,16 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewActor.xaml
     /// </summary>
-    public partial class addNewActor : Window
+    public partial class addNewActor 
     {
-        string actorName, actorSurname;
-        glumac actor;
+        List<nacionalnost> nacionality;
+        string actorName, actorSurname, actorYear;
         baza db;
         public addNewActor()
         {
             InitializeComponent();
             db = new baza();
+            
 
         }
 
@@ -34,8 +35,14 @@ namespace evideoteka
             //actor = new glumac();
             actorName = txtBoxActorName.Text;
             actorSurname = txtBoxActorSurname.Text;
-            string query = "insert into glumac(ime, prezime) values ( " + "'" +actorName + "' "+ "," +"'" + actorSurname +"'"  + ")";
+            actorYear = txtBoxActorYear.Text;            
+            string query = "insert into glumac(ime, prezime, datumRodjenja) values ( " + "'" + actorName + "'" + "," + "'" + actorSurname + "'" + "," + "'" + actorYear + "'" + " )";
             db.insert(query);
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
