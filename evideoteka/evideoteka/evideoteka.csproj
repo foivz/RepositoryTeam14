@@ -71,6 +71,9 @@
     <Compile Include="addMovieDirector.xaml.cs">
       <DependentUpon>addMovieDirector.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddMovieSubtitle.xaml.cs">
+      <DependentUpon>AddMovieSubtitle.xaml</DependentUpon>
+    </Compile>
     <Compile Include="addNewActor.xaml.cs">
       <DependentUpon>addNewActor.xaml</DependentUpon>
     </Compile>
@@ -142,6 +145,10 @@
     </Compile>
     <Compile Include="zanr.cs" />
     <Page Include="addMovieDirector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddMovieSubtitle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

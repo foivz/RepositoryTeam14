@@ -15,7 +15,7 @@
         <TextBox x:Name="txtBoxPhone" HorizontalAlignment="Left" Height="23" Margin="93,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtBoxFax" HorizontalAlignment="Left" Height="23" Margin="93,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtBoxEmail" HorizontalAlignment="Left" Height="23" Margin="93,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.175,0.324"/>
-        <TextBox x:Name="txtBoxOib" HorizontalAlignment="Left" Height="23" Margin="93,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxOib" HorizontalAlignment="Left" Height="23" Margin="93,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtBoxOib_TextChanged"/>
         <Button x:Name="btnAddDistributor" Content="Dodaj" HorizontalAlignment="Left" Margin="114,259,0,0" VerticalAlignment="Top" Width="75" Click="btnAddDistributor_Click"/>
         <Button x:Name="btnCloseDistributor" Content="Natrag" HorizontalAlignment="Left" Margin="114,302,0,0" VerticalAlignment="Top" Width="75" Click="btnCloseDistributor_Click"/>
         <Label Content="Naziv" HorizontalAlignment="Left" Margin="24,15,0,0" VerticalAlignment="Top"/>

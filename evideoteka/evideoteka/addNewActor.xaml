@@ -7,12 +7,12 @@
         WindowStartupLocation="CenterScreen">
 
     <Grid>
-        <TextBox x:Name="txtBoxActorName" HorizontalAlignment="Left" Height="23" Margin="116,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.508,-0.077"/>
-        <TextBox x:Name="txtBoxActorSurname" HorizontalAlignment="Left" Height="23" Margin="116,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Dodaj" HorizontalAlignment="Left" Margin="135,182,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="1.04,0.8"/>
+        <TextBox x:Name="txtBoxActorName" HorizontalAlignment="Left" Height="23" Margin="116,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.508,-0.077" TextChanged="txtBoxActorName_TextChanged"/>
+        <TextBox x:Name="txtBoxActorSurname" HorizontalAlignment="Left" Height="23" Margin="116,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtBoxActorSurname_TextChanged"/>
+        <Button x:Name="btnAdd" Content="Dodaj" HorizontalAlignment="Left" Margin="135,182,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="1.04,0.8"/>
         <Label Content="Ime" HorizontalAlignment="Left" Margin="30,33,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,-0.192"/>
         <Label Content="Prezime" HorizontalAlignment="Left" Margin="30,75,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="txtBoxActorYear" HorizontalAlignment="Left" Height="23" Margin="116,117,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtBoxActorYear" Text=" " HorizontalAlignment="Left" Height="23" Margin="116,117,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" TextChanged="txtBoxActorYear_TextChanged"/>
         <Label Content="Godina" HorizontalAlignment="Left" Margin="30,116,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.125,-0.575"/>
         <Button x:Name="btnExit" Content="Natrag"  HorizontalAlignment="Left" Margin="135,226,0,0" VerticalAlignment="Top" Width="75" Height="21" Click="btnExit_Click"/>
 

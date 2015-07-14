@@ -232,9 +232,17 @@ C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evide
 C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\System.Windows.Interactivity.dll
 C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\MahApps.Metro.xml
 C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\App.baml
+C:\Users\Ivan\Documents\GitHub\RepositoryTeam14\evideoteka\evideoteka\bin\Debug\evideoteka.exe.config
+C:\Users\Ivan\Documents\GitHub\RepositoryTeam14\evideoteka\evideoteka\obj\Debug\Interop.AXVLC.dll
+C:\Users\Ivan\Documents\GitHub\RepositoryTeam14\evideoteka\evideoteka\obj\Debug\AxInterop.AXVLC.dll
+C:\Users\Ivan\Documents\GitHub\RepositoryTeam14\evideoteka\evideoteka\obj\Debug\evideoteka.csproj.ResolveComReference.cache
+C:\Users\Ivan\Documents\GitHub\RepositoryTeam14\evideoteka\evideoteka\obj\Debug\evideoteka.exe
+C:\Users\Ivan\Documents\GitHub\RepositoryTeam14\evideoteka\evideoteka\obj\Debug\evideoteka.pdb
 C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\MahApps.Metro.dll
 C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\System.Windows.Interactivity.dll
 C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\bin\Debug\MahApps.Metro.xml
 C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\Resources\Icons.baml
 C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\App.baml
 C:\Users\Ivan\Desktop\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\Resources\Icons.g.cs
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\AddMovieSubtitle.baml
+C:\Users\Ivan\Desktop\evideoteka backup\RepositoryTeam14-master\evideoteka\evideoteka\obj\Debug\AddMovieSubtitle.g.cs

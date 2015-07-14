@@ -12,6 +12,7 @@ namespace evideoteka
         public string postanskiBroj { get; set; }
         public string mjesto { get; set; }
         public string ulica { get; set; }
+        public int status { get; set; }
 
         public override string ToString()
         {

@@ -18,15 +18,15 @@ namespace evideoteka
     /// Interaction logic for admin.xaml
     /// </summary>
 
-   
+
     public partial class admin
     {
         string numberOfSelectedItem;
-         dataToSend dts;
+        dataToSend dts;
         public admin()
         {
             InitializeComponent();
-            
+
         }
 
         private void mnuItemExit_Click(object sender, RoutedEventArgs e)
@@ -162,7 +162,7 @@ namespace evideoteka
             dts = new dataToSend(numberOfSelectedItem, "nacionalnost");
             var aW = new editAll(dts);
             aW.ShowDialog();
- 
+
         }
 
         private void mnuItemChangeGenre_Click(object sender, RoutedEventArgs e)
@@ -192,6 +192,12 @@ namespace evideoteka
             addMovieGenrePanel.ShowDialog();
         }
 
-               
+        private void mnuItemAddMovieTitle_Click(object sender, RoutedEventArgs e)
+        {
+            var addMovieSubtitlePanel = new  AddMovieSubtitle();
+            addMovieSubtitlePanel.ShowDialog();
+        }
+
+
     }
 }

@@ -18,14 +18,14 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for user.xaml
     /// </summary>
-    public partial class user 
+    public partial class user
     {
         AxAXVLC.AxVLCPlugin2 vlcPlayer = new AxAXVLC.AxVLCPlugin2();
         String path;
         public user(String s)
         {
             InitializeComponent();
-            
+
             wh1.Child = vlcPlayer;
             path = s;
             this.Closed += new EventHandler(user_Closed);
@@ -35,8 +35,8 @@ namespace evideoteka
         {
             vlcPlayer.playlist.stop();
             vlcPlayer.playlist.items.clear();
-            
-            
+
+
         }
 
         private void btnPlay_Click(object sender, RoutedEventArgs e)
@@ -92,6 +92,6 @@ namespace evideoteka
 
 
 
-       
+
     }
 }

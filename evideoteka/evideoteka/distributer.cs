@@ -15,6 +15,7 @@ namespace evideoteka
         public string faks { get; set; }
         public string email { get; set; }
         public string oib { get; set; }
+        public int status { get; set; }
 
         public override string ToString()
         {

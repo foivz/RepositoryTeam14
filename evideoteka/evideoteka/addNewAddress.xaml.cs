@@ -34,12 +34,29 @@ namespace evideoteka
             street = txtBoxUlica.Text;
             string query = "insert into adresa(postanskiBroj, mjesto, ulica) values ( " + "'" + postNumber + "' " + "," + "'" + place + "'" + "," + "'" + street + "'" + ")";
             db.insert(query);
-           
+
         }
 
         private void btnCloseAddress_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void txtBoxPostNumber_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (txtBoxPostNumber.Text.Length != 5)
+            {
+
+                btnAddAddress.IsEnabled = false;
+                txtBoxPostNumber.BorderBrush = new SolidColorBrush(Colors.Red);
+            }
+
+            else
+            {
+                btnAddAddress.IsEnabled = true;
+                txtBoxPostNumber.BorderBrush = new SolidColorBrush(Colors.Black);
+
+            }
         }
     }
 }

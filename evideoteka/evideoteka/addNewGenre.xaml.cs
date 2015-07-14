@@ -36,7 +36,7 @@ namespace evideoteka
         {
             name = txtBoxName.Text;
             description = txtBoxDescription.Text;
-            string query = "insert into zanr(naziv, opis) values ( " + "'" + name + "'" + "," + "'" + description + "'" +  ")";
+            string query = "insert into zanr(naziv, opis) values ( " + "'" + name + "'" + "," + "'" + description + "'" + ")";
             db.insert(query);
         }
     }

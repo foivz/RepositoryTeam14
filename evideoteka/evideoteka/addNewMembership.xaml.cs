@@ -46,16 +46,24 @@ namespace evideoteka
 
         private void btnAddMembership_Click(object sender, RoutedEventArgs e)
         {
-            dt = new DateTime();
-            dtUntil = new DateTime();
-            dt = DateTime.Now;
-            model currentModel = (model)listBoxModel.SelectedItem;
-            korisnik currentUser = (korisnik)listBoxUser.SelectedItem;
-            dtUntil = dt.AddDays(currentModel.trajanje);
-            string date1 = dt.ToString("yyyy-MM-dd HH:mm:ss");
-            string date2 = dtUntil.ToString("yyyy-MM-dd HH:mm:ss");
-            string query = "insert into clanarina (model, korisnik, datumAktivacija, datumDeaktivacije) values (" + "'" + currentModel.idKorisnik + "'" + "," + "'" + currentUser.idKorisnik + "'" + "," + "'" + date1 + "'" + "," + "'" + date2 + "'" +  ")";
-            db.insert(query);
+            try
+            {
+                dt = new DateTime();
+                dtUntil = new DateTime();
+                dt = DateTime.Now;
+                model currentModel = (model)listBoxModel.SelectedItem;
+                korisnik currentUser = (korisnik)listBoxUser.SelectedItem;
+                dtUntil = dt.AddDays(currentModel.trajanje);
+                string date1 = dt.ToString("yyyy-MM-dd HH:mm:ss");
+                string date2 = dtUntil.ToString("yyyy-MM-dd HH:mm:ss");
+                string query = "insert into clanarina (model, korisnik, datumAktivacija, datumDeaktivacije) values (" + "'" + currentModel.idKorisnik + "'" + "," + "'" + currentUser.idKorisnik + "'" + "," + "'" + date1 + "'" + "," + "'" + date2 + "'" + ")";
+                db.insert(query);
+            }
+
+            catch (Exception)
+            {
+                MessageBox.Show("Odaberite obje vrijednosti!");
+            }
         }
 
         private void btnClose_Click(object sender, RoutedEventArgs e)

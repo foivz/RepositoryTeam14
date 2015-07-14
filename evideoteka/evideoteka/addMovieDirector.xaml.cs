@@ -42,10 +42,20 @@ namespace evideoteka
 
         private void btnAddMovieDirector_Click(object sender, RoutedEventArgs e)
         {
-            film selectedMovie = (film)listBoxMovie.SelectedItem;
-            redatelj selectedGenre = (redatelj)listBoxDirector.SelectedItem;
-            string query = "insert into filmredatelj  values (" + "'" + selectedMovie.idFilm + "'" + "," + "'" + selectedGenre.idRedatelj + "'" + ")";
-            db.insert(query);
+            try
+            {
+                film selectedMovie = (film)listBoxMovie.SelectedItem;
+                redatelj selectedGenre = (redatelj)listBoxDirector.SelectedItem;
+                string query = "insert into filmredatelj  values (" + "'" + selectedMovie.idFilm + "'" + "," + "'" + selectedGenre.idRedatelj + "'" + ")";
+                db.insert(query);
+            }
+
+            catch (Exception)
+            {
+                MessageBox.Show("Odaberite obje vrijednosti!");
+            }
+
+
         }
 
         private void btnEnd_Click(object sender, RoutedEventArgs e)

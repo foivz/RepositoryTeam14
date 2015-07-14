@@ -11,5 +11,11 @@ namespace evideoteka
         public int idTitl { get; set; }
         public string jezik { get; set; }
         public string putanja { get; set; }
+
+        public override string ToString()
+        {
+            return jezik;
+        }
+
     }
 }

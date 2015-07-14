@@ -34,7 +34,7 @@ namespace evideoteka
 
         private void btnAddNacionalnost_Click(object sender, RoutedEventArgs e)
         {
-            
+
             name = txtBoxNacionalnost.Text;
             string query = "insert into nacionalnost(drzavljanstvo) values ( " + "'" + name + "'" + ")";
             db.insert(query);

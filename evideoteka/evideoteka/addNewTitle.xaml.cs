@@ -37,7 +37,8 @@ namespace evideoteka
         {
             name = txtBoxName.Text;
             string query = "insert into titl(jezik, putanja) values ( " + "'" + name + "'" + "," + "'" + path + "'" + ")";
-            db.insert(query);
+            string query2 = query.Replace(@"\", @"\\");
+            db.insert(query2);
         }
 
         private void btnFindTitle_Click(object sender, RoutedEventArgs e)

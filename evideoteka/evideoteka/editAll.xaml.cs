@@ -107,10 +107,6 @@ namespace evideoteka
           
         }
 
-        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            
-        }
 
         private void AddressForm_ButtonClicked(object sender, dataToSend e)
         {
@@ -226,7 +222,8 @@ namespace evideoteka
             }
             query = query.Remove(query.Length - 2);
             query += " WHERE " + tableFieldNames[0] + " = " + tableFieldValues[0];
-            db.insert(query);
+            string query2 = query.Replace(@"\", @"\\");
+            db.insert(query2);
         }
     }
 }

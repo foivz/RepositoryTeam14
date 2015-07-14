@@ -12,6 +12,7 @@ namespace evideoteka
         public string ime { get; set; }
         public string prezime { get; set; }
         public string datumRodenja { get; set; }
+        public int status { get; set; }
 
         public override string ToString()
         {

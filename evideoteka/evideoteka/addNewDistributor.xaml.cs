@@ -43,5 +43,22 @@ namespace evideoteka
         {
             this.Close();
         }
+
+        private void txtBoxOib_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (txtBoxOib.Text.Length != 11)
+            {
+
+                btnAddDistributor.IsEnabled = false;
+                txtBoxOib.BorderBrush = new SolidColorBrush(Colors.Red);
+            }
+
+            else
+            {
+                btnAddDistributor.IsEnabled = true;
+                txtBoxOib.BorderBrush = new SolidColorBrush(Colors.Black);
+
+            }
+        }
     }
 }

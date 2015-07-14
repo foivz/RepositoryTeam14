@@ -33,7 +33,8 @@ namespace evideoteka
             selectGenre = db.SelectGenre();
             selectMovie = db.SelectMovie();
             selectMovieGenre = db.SelectMovieGenre();
-            foreach (zanr z in selectGenre){
+            foreach (zanr z in selectGenre)
+            {
                 listBoxGenre.Items.Add(z);
             }
         }
@@ -42,19 +43,18 @@ namespace evideoteka
         {
             listBoxMovie.Items.Clear();
             zanr selectedGenre = (zanr)listBoxGenre.SelectedItem;
-          
+
             foreach (filmzanr fz in selectMovieGenre)
             {
-                
+
                 if (fz.idZanr == selectedGenre.idZanr)
-                    
                 {
                     foreach (film fi in selectMovie)
                     {
-                        
+
                         if (fz.idFilm == fi.idFilm)
                         {
-                            
+
                             listBoxMovie.Items.Add(fi);
                         }
                     }
@@ -64,9 +64,9 @@ namespace evideoteka
 
         private void listBoxMovie_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            
-            
-           
+
+
+
         }
 
         private void listBoxMovie_MouseDoubleClick(object sender, MouseButtonEventArgs e)

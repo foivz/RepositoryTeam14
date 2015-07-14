@@ -42,10 +42,19 @@ namespace evideoteka
 
         private void btnAddMovieActor_Click(object sender, RoutedEventArgs e)
         {
-            film selectedMovie = (film)listBoxMovie.SelectedItem;
-            glumac selectedGenre = (glumac)listBoxActor.SelectedItem;
-            string query = "insert into filmglumac  values (" + "'" + selectedMovie.idFilm + "'" + "," + "'" + selectedGenre.idGlumac + "'" + ")";
-            db.insert(query);
+            try
+            {
+                film selectedMovie = (film)listBoxMovie.SelectedItem;
+                glumac selectedGenre = (glumac)listBoxActor.SelectedItem;
+                string query = "insert into filmglumac  values (" + "'" + selectedMovie.idFilm + "'" + "," + "'" + selectedGenre.idGlumac + "'" + ")";
+                db.insert(query);
+            }
+
+            catch (Exception)
+            {
+                MessageBox.Show("Odaberite obje vrijednosti!");
+
+            }
         }
 
         private void btnEnd_Click(object sender, RoutedEventArgs e)

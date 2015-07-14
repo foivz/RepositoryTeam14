@@ -6,7 +6,7 @@
         GlowBrush="{DynamicResource AccentColorBrush}"
         WindowStartupLocation="CenterScreen">
     <Grid>
-        <TextBox x:Name="txtBoxPostNumber" HorizontalAlignment="Left" Height="23" Margin="125,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.459,-0.103"/>
+        <TextBox x:Name="txtBoxPostNumber" HorizontalAlignment="Left" Height="23" Margin="125,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.459,-0.103" TextChanged="txtBoxPostNumber_TextChanged"/>
         <TextBox x:Name="txtBoxMjesto" HorizontalAlignment="Left" Height="23" Margin="125,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtBoxUlica" HorizontalAlignment="Left" Height="23" Margin="125,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnAddAddress" Content="Dodaj" HorizontalAlignment="Left" Margin="135,190,0,0" VerticalAlignment="Top" Width="75" Click="btnAddAddress_Click"/>

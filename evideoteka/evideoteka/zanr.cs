@@ -12,6 +12,8 @@ namespace evideoteka
         public string naziv { get; set; }
         public string opis { get; set; }
 
+        public int status { get; set; }
+
         public override string ToString()
         {
             return naziv;

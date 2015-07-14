@@ -16,6 +16,7 @@ namespace evideoteka
         public string zemlja { get; set; }
         public string putanja { get; set; }
         public int distributer { get; set; }
+        public int status { get; set; }
 
         public override string ToString()
         {

@@ -58,7 +58,7 @@ namespace evideoteka
             String userActorSearch = txtBoxSearchActor.Text;
             foreach (glumac g in searchByActor)
             {
-                if (g.ime.Contains(userActorSearch) || g.prezime.Contains(userActorSearch)) 
+                if (g.ime.Contains(userActorSearch) || g.prezime.Contains(userActorSearch))
                 {
                     foreach (filmglumac fm in searchByActorMovie)
                     {
@@ -71,8 +71,8 @@ namespace evideoteka
                             }
                         }
                     }
- 
-                
+
+
                 }
             }
         }

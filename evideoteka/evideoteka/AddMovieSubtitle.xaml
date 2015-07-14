@@ -1,0 +1,17 @@
+﻿<Controls:MetroWindow x:Class="evideoteka.AddMovieSubtitle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Dodaj filmu titl" Height="300" Width="300">
+    <Grid>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="10,109,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listBoxMovie" HorizontalAlignment="Left" Height="58" Margin="140,23,0,0" VerticalAlignment="Top" Width="124"/>
+        <ListBox x:Name="listBoxTitle" HorizontalAlignment="Left" Height="64" Margin="140,86,0,0" VerticalAlignment="Top" Width="124"/>
+        <Button x:Name="btnAddNewMovieTitle" Content="Button" HorizontalAlignment="Left" Margin="112,169,0,0" VerticalAlignment="Top" Width="75" Click="btnAddNewMovieTitle_Click"/>
+        <Button HorizontalAlignment="Left" Margin="112,212,0,0" VerticalAlignment="Top" Width="75">
+            <Button Content="Button" Width="75" Click="Button_Click"/>
+        </Button>
+
+    </Grid>
+</Controls:MetroWindow>

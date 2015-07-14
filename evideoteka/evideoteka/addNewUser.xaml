@@ -15,12 +15,12 @@
             <ColumnDefinition Width="12*"/>
             <ColumnDefinition Width="85*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="txtBoxName" HorizontalAlignment="Left" Height="23" Margin="49,-18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.379,0.552" Grid.Column="1" Grid.ColumnSpan="3"/>
-        <TextBox x:Name="txtBoxSurname" HorizontalAlignment="Left" Height="23" Margin="93,-18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="txtBoxName" HorizontalAlignment="Left" Height="23" Margin="49,-18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.379,0.552" Grid.Column="1" Grid.ColumnSpan="3" TextChanged="txtBoxName_TextChanged"/>
+        <TextBox x:Name="txtBoxSurname" HorizontalAlignment="Left" Height="23" Margin="93,-18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="3" TextChanged="txtBoxSurname_TextChanged"/>
         <TextBox x:Name="txtBoxPhone" HorizontalAlignment="Left" Height="23" Margin="49,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
         <TextBox x:Name="txtBoxEmail" HorizontalAlignment="Left" Height="23" Margin="93,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="3"/>
-        <TextBox x:Name="txtBoxStatus" HorizontalAlignment="Left" Height="23" Margin="49,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
-        <TextBox x:Name="txtBoxType1" HorizontalAlignment="Left" Height="23" Margin="93,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="txtBoxStatus" HorizontalAlignment="Left" Height="23" Margin="49,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3" TextChanged="txtBoxStatus_TextChanged"/>
+        <TextBox x:Name="txtBoxType1" HorizontalAlignment="Left" Height="23" Margin="93,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="3" TextChanged="txtBoxType1_TextChanged"/>
         <TextBox x:Name="txtBoxUserName" HorizontalAlignment="Left" Height="23" Margin="49,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>
         <TextBox x:Name="txtBoxPassword" HorizontalAlignment="Left" Height="23" Margin="93,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.ColumnSpan="3"/>
         <TextBox x:Name="txtBoxAddress" HorizontalAlignment="Left" Height="23" Margin="49,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.ColumnSpan="3"/>

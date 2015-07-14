@@ -10,7 +10,7 @@ namespace evideoteka
     {
         private string tableNumber;
         private string tableName;
-        public dataToSend(string s, string ss )
+        public dataToSend(string s, string ss)
         {
             this.tableNumber = s;
             this.tableName = ss;

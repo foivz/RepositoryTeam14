@@ -40,7 +40,9 @@
                     <MenuItem Name="mnuItemAddMovie" Header="Dodaj film" Click="mnuItemAddMovie_Click"  ></MenuItem>
                     <MenuItem Name="mnuItemChangeMovie" Header="Izmijeni podatke" Click="mnuItemChangeMovie_Click"  ></MenuItem>                    
                     <MenuItem Name="mnuItemAddTitle" Header="Dodaj titlove" Click="mnuItemAddTitle_Click"  ></MenuItem>
-                    </MenuItem>
+                    <MenuItem Name="mnuItemAddMovieTitle" Header="Dodaj filmu titlove" Click="mnuItemAddMovieTitle_Click"  ></MenuItem>
+
+                </MenuItem>
                 <MenuItem Name="mnuSubItemGenre" Header="Žanr">
                     <MenuItem Name="mnuItemAddGenre" Header="Dodaj Žanr" Click="mnuItemAddGenre_Click" ></MenuItem>
                     <MenuItem Name="mnuItemChangeGenre" Header="Izmijeni podatke" Click="mnuItemChangeGenre_Click" ></MenuItem>

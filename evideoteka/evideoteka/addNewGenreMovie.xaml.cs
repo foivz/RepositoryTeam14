@@ -17,7 +17,7 @@ namespace evideoteka
     /// <summary>
     /// Interaction logic for addNewGenreMovie.xaml
     /// </summary>
-    public partial class addNewGenreMovie 
+    public partial class addNewGenreMovie
     {
         baza db;
         List<film> choseMovie;
@@ -42,10 +42,19 @@ namespace evideoteka
 
         private void btnAddMovieGenre_Click(object sender, RoutedEventArgs e)
         {
-            film selectedMovie = (film)listBoxAddMovie.SelectedItem;
-            zanr selectedGenre = (zanr)listBoxAddGenre.SelectedItem;
-            string query = "insert into filmzanr  values (" + "'" + selectedMovie.idFilm + "'" + "," + "'" + selectedGenre.idZanr + "'" + ")";
-            db.insert(query);
+            try
+            {
+                film selectedMovie = (film)listBoxAddMovie.SelectedItem;
+                zanr selectedGenre = (zanr)listBoxAddGenre.SelectedItem;
+                string query = "insert into filmzanr  values (" + "'" + selectedMovie.idFilm + "'" + "," + "'" + selectedGenre.idZanr + "'" + ")";
+                db.insert(query);
+            }
+
+            catch (Exception)
+            {
+                MessageBox.Show("Odaberite obje vrijedosti!");
+
+            }
         }
 
         private void btnEnd_Click(object sender, RoutedEventArgs e)
